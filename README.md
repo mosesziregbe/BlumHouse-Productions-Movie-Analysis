@@ -7,27 +7,31 @@ This project aims to explore and analyze key trends related to Blumhouse Product
 The dataset was scraped from various sources using BeautifulSoup and contains details about Blumhouse movies such as their production budgets, worldwide box office earnings, and IMDB and Tomatometer scores.
 
 ## Tools Used
-Python 3.x
-Pandas: For data manipulation and analysis
-Matplotlib/Seaborn: For data visualization
-BeautifulSoup: For web scraping the dataset
-JupyterLab: For interactive data exploration and documentation
+- Python 3.x
+- Pandas: For data manipulation and analysis
+- Matplotlib/Seaborn: For data visualization
+- BeautifulSoup: For web scraping the dataset
+- JupyterLab: For interactive data exploration and documentation
 
 ## Dataset Description
 The dataset used for this project contains information about Blumhouse movies, including:
 
-Movie Title: Name of the film
-Production Budget: The budget allocated to the movie
-Worldwide Box Office: Total box office earnings worldwide
-IMDB Rating: User ratings from IMDB
-Tomatometer Score: Critic ratings from Rotten Tomatoes
-MPAA Rating: The MPAA classification of the film (e.g., R, PG-13)
-Director: Name of the movie's director
-Lead Actor/Actress: The main cast of the movie
-Release Year: The year the movie was released
-ROI: Return on Investment, calculated as (Worldwide Box Office - Production Budget) / Production Budget
+| Name                | Description                                                                                 |
+|---------------------|---------------------------------------------------------------------------------------------|
+| Movie Title         | Name of the film                                                                             |
+| Production Budget   | The budget allocated to the movie                                                            |
+| Worldwide Box Office| Total box office earnings worldwide                                                          |
+| IMDB Rating         | User ratings from IMDB                                                                       |
+| Tomatometer Score   | Critic ratings from Rotten Tomatoes                                                          |
+| MPAA Rating         | The MPAA classification of the film (e.g., R, PG-13)                                         |
+| Director            | Name of the movie's director                                                                 |
+| Lead Actor/Actress  | The main cast of the movie                                                                   |
+| Release Year        | The year the movie was released                                                              |
+| ROI                 | Return on Investment, calculated as (Worldwide Box Office - Production Budget) / Production Budget |
+
 Additional Columns Created:
-Budget Range: The budget categorized into ranges for further analysis.
-Complete Data: A flag indicating if the movie has complete data for critical columns (production budget, box office, and ROI).
+
+- Budget Range: The budget categorized into ranges for further analysis.
+- Complete Data: A flag indicating if the movie has complete data for critical columns (production budget, box office, and ROI).
 
 ## Project Structure
